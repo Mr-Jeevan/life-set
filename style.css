@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header .navbar p {
+    font-size: 34px;
+    margin: 0 auto;
+}
+
+.banner .content .content2 img {
+    aspect-ratio: "16:9";
+}
+
+/* songs selection */
+.songs-section h4::after,
+.songs-section h4::before {
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: 70px;
+    background: #000;
+    margin-bottom: 7px;
+    background-color: aliceblue;
+}
+
+.songs-section .content .row .card {
+    background: #cc4e90;
+    opacity: .5;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    aspect-ratio: 1/1;
+    width: 75%;
+    transition: .3s ease-in-out;
+}
+
+.songs-section .content .row .travel-card.card {
+    background-image: url(./assets/img/travel\ \(1\).jpeg);
+}
+
+.songs-section .content .row .gym-card.card {
+    background-image: url(./assets/img/gym\ \(2\).jpeg);
+}
+
+.songs-section .content .row .party-card.card {
+    background-image: url(./assets/img/party\ \(1\).jpeg);
+}
+
+.songs-section .content .row .travel-card.card:hover {
+    opacity: 1;
+}
+
+.songs-section .content .row .card .card-body div {
+    transition: .3s ease-in-out;
+
+}
+
+.songs-section .content .row .card:hover .card-body div {
+    background: #00000059;
+    box-shadow: 2px 2px 8px #00000064;
+}
+
+.songs-section .content .row .card .card-body div p {
+    transition: all 3s ease-in-out;
+
+}
+
+.songs-section .content .row .card .card-body div p {
+    text-shadow: #000000;
+}
+
+.songs-section .content .row .card:hover .card-body .travel-text p::after {
+    content: "when U don't have one in Real. Live in the imaginary relm U want to be, these trevel souls will help.";
+    display: block;
+    margin-top: 2rem;
+}
+
+.songs-section .content .row .card:hover .card-body .gym-text p::after {
+    /* content: " while U still in ur room, Exercise untillll breaking the limitations, these gym souls will help."; */
+    content: "coming soon";
+    display: block;
+    margin-top: 2rem;
+}
+
+.songs-section .content .row .card:hover .card-body .party-text p::after {
+    /* content: " when U don't have any friends, Get that steps and madness out of it, Go crazy , these party souls will help."; */
+    content: "coming soon";
+    display: block;
+    margin-top: 2rem;
+}
